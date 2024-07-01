@@ -41,5 +41,6 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
         AWS_REGION: 'us-east-1'
-      run:  aws s3 sync build/ s3://$AWS_BUCKET_NAME --region $AWS_REGION --delete --acl public-read
+      run: |
+        aws s3 sync build/ s3://$AWS_BUCKET_NAME --region $AWS_REGION --delete --no-include-encryption --no-include-acl --acl bucket-owner-full-control
 
