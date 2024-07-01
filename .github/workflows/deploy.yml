@@ -25,8 +25,9 @@ jobs:
       run: npm run build
 
     - name: Uninstall deprecated AWS CLI npm package
-      run: npm uninstall -g aws-cli
-      run: sudo rm -rf /usr/local/aws-cli
+      run: |
+       npm uninstall -g aws-cli
+       sudo rm -rf /usr/local/aws-cli
 
     - name: Install AWS CLI using pip
       run: |
