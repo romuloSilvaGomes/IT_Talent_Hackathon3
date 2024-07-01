@@ -23,6 +23,13 @@ jobs:
 
     - name: Build the project
       run: npm run build
+    - name: Uninstall deprecated AWS CLI npm package
+      run: npm uninstall -g aws-cli
+    - name: Install AWS CLI using pip
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-pip
+        pip3 install awscli
 
     - name: Deploy to S3
       env:
