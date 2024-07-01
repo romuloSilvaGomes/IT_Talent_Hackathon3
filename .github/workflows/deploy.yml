@@ -23,8 +23,11 @@ jobs:
 
     - name: Build the project
       run: npm run build
+
     - name: Uninstall deprecated AWS CLI npm package
       run: npm uninstall -g aws-cli
+      run: sudo rm -rf /usr/local/aws-cli
+
     - name: Install AWS CLI using pip
       run: |
        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
