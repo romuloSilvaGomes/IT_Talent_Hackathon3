@@ -1,3 +1,26 @@
+# TOKEN SONAR QUBE
+
+![token_snarqube](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/76aaa0ae-5e63-4ab5-8339-63cdaf746931)
+
+# PRINTS SONAR QUBE
+
+![sonarqube1](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/272499d7-8f33-403c-8dfd-1dcb9844d1b8)
+
+![sonarqube2](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/518562a6-ef54-4498-87ac-6969750b457d)
+
+![sonarqube3](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/4bf23b22-fdd5-466a-b0dc-882d03aaddb7)
+
+![sonarqube4](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/c87bb3ae-d920-452a-8003-21c30f395e29)
+
+![sonarqube5](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/d30e37f3-11ee-48fd-af65-63f4d32d2c9b)
+
+![sonarqube6](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/78c0ae6b-944d-44f6-bcf5-b007d1ba80ca)
+
+
+# AWS PRINT
+
+![aws_s3](https://github.com/romuloSilvaGomes/IT_Talent_Hackathon3/assets/1142023/863ff6f5-d292-4407-bbff-91431d19678c)
+
 # Getting Started with Create React App
 
 ![](.github/Print.png)
